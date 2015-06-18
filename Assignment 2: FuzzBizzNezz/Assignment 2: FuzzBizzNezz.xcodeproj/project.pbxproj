@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C5624431B332DB300124B5E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C5624421B332DB300124B5E /* main.c */; };
+		6C5624561B33309C00124B5E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C5624551B33309C00124B5E /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6C56243D1B332DB300124B5E /* CopyFiles */ = {
+		6C5624501B33309C00124B5E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6C56243F1B332DB300124B5E /* Assignment 1: FizzBuzz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Assignment 1: FizzBuzz"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C5624421B332DB300124B5E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		6C5624521B33309C00124B5E /* Assignment 2: FuzzBizzNezz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Assignment 2: FuzzBizzNezz"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C5624551B33309C00124B5E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6C56243C1B332DB300124B5E /* Frameworks */ = {
+		6C56244F1B33309C00124B5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6C5624361B332DB300124B5E = {
+		6C5624491B33309C00124B5E = {
 			isa = PBXGroup;
 			children = (
-				6C5624411B332DB300124B5E /* Assignment 1: FizzBuzz */,
-				6C5624401B332DB300124B5E /* Products */,
+				6C5624541B33309C00124B5E /* Assignment 2: FuzzBizzNezz */,
+				6C5624531B33309C00124B5E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6C5624401B332DB300124B5E /* Products */ = {
+		6C5624531B33309C00124B5E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6C56243F1B332DB300124B5E /* Assignment 1: FizzBuzz */,
+				6C5624521B33309C00124B5E /* Assignment 2: FuzzBizzNezz */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6C5624411B332DB300124B5E /* Assignment 1: FizzBuzz */ = {
+		6C5624541B33309C00124B5E /* Assignment 2: FuzzBizzNezz */ = {
 			isa = PBXGroup;
 			children = (
-				6C5624421B332DB300124B5E /* main.c */,
+				6C5624551B33309C00124B5E /* main.c */,
 			);
-			path = "Assignment 1: FizzBuzz";
+			path = "Assignment 2: FuzzBizzNezz";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6C56243E1B332DB300124B5E /* Assignment 1: FizzBuzz */ = {
+		6C5624511B33309C00124B5E /* Assignment 2: FuzzBizzNezz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C5624461B332DB300124B5E /* Build configuration list for PBXNativeTarget "Assignment 1: FizzBuzz" */;
+			buildConfigurationList = 6C5624591B33309C00124B5E /* Build configuration list for PBXNativeTarget "Assignment 2: FuzzBizzNezz" */;
 			buildPhases = (
-				6C56243B1B332DB300124B5E /* Sources */,
-				6C56243C1B332DB300124B5E /* Frameworks */,
-				6C56243D1B332DB300124B5E /* CopyFiles */,
+				6C56244E1B33309C00124B5E /* Sources */,
+				6C56244F1B33309C00124B5E /* Frameworks */,
+				6C5624501B33309C00124B5E /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Assignment 1: FizzBuzz";
-			productName = "Assignment 1: FizzBuzz";
-			productReference = 6C56243F1B332DB300124B5E /* Assignment 1: FizzBuzz */;
+			name = "Assignment 2: FuzzBizzNezz";
+			productName = "Assignment 2: FuzzBizzNezz";
+			productReference = 6C5624521B33309C00124B5E /* Assignment 2: FuzzBizzNezz */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6C5624371B332DB300124B5E /* Project object */ = {
+		6C56244A1B33309C00124B5E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Foodee;
 				TargetAttributes = {
-					6C56243E1B332DB300124B5E = {
+					6C5624511B33309C00124B5E = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
 			};
-			buildConfigurationList = 6C56243A1B332DB300124B5E /* Build configuration list for PBXProject "Assignment 1: FizzBuzz" */;
+			buildConfigurationList = 6C56244D1B33309C00124B5E /* Build configuration list for PBXProject "Assignment 2: FuzzBizzNezz" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 6C5624361B332DB300124B5E;
-			productRefGroup = 6C5624401B332DB300124B5E /* Products */;
+			mainGroup = 6C5624491B33309C00124B5E;
+			productRefGroup = 6C5624531B33309C00124B5E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6C56243E1B332DB300124B5E /* Assignment 1: FizzBuzz */,
+				6C5624511B33309C00124B5E /* Assignment 2: FuzzBizzNezz */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6C56243B1B332DB300124B5E /* Sources */ = {
+		6C56244E1B33309C00124B5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C5624431B332DB300124B5E /* main.c in Sources */,
+				6C5624561B33309C00124B5E /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		6C5624441B332DB300124B5E /* Debug */ = {
+		6C5624571B33309C00124B5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -165,7 +165,7 @@
 			};
 			name = Debug;
 		};
-		6C5624451B332DB300124B5E /* Release */ = {
+		6C5624581B33309C00124B5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -199,14 +199,14 @@
 			};
 			name = Release;
 		};
-		6C5624471B332DB300124B5E /* Debug */ = {
+		6C56245A1B33309C00124B5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		6C5624481B332DB300124B5E /* Release */ = {
+		6C56245B1B33309C00124B5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -216,24 +216,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6C56243A1B332DB300124B5E /* Build configuration list for PBXProject "Assignment 1: FizzBuzz" */ = {
+		6C56244D1B33309C00124B5E /* Build configuration list for PBXProject "Assignment 2: FuzzBizzNezz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C5624441B332DB300124B5E /* Debug */,
-				6C5624451B332DB300124B5E /* Release */,
+				6C5624571B33309C00124B5E /* Debug */,
+				6C5624581B33309C00124B5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C5624461B332DB300124B5E /* Build configuration list for PBXNativeTarget "Assignment 1: FizzBuzz" */ = {
+		6C5624591B33309C00124B5E /* Build configuration list for PBXNativeTarget "Assignment 2: FuzzBizzNezz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C5624471B332DB300124B5E /* Debug */,
-				6C5624481B332DB300124B5E /* Release */,
+				6C56245A1B33309C00124B5E /* Debug */,
+				6C56245B1B33309C00124B5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6C5624371B332DB300124B5E /* Project object */;
+	rootObject = 6C56244A1B33309C00124B5E /* Project object */;
 }
